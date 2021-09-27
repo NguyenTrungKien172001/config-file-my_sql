@@ -1,0 +1,52 @@
+//up file:
+(
+git init
+
+git config --global user.email "MY_NAME@example.com" (tên email đăng ký githup)
+git config --global user.name "FIRST_NAME LAST_NAME" (tên người dùng githup)
+
+git add .
+
+git commit -m "hello"  ()
+
+(ssh)
+git remote add origin git@github.com:dat2k1tp/Phan_Mem_OnThi_THPT.git
+g
+(url http)
+/* add vs token */
+ git remote set-url origin https://(token@)github.com/dat2k1tp/
+git
+/*token : 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*/
+
+git push origin master
+)
+
+//update file
+(
+		(git checkout tên branch)-dung cho nhánh
+
+git add .
+
+git commit -m "hello" (thong bao)
+
+git push origin master
+)
+
+//tao nhanh
+(
+git clone https
+
+git checkout -b tên branch
+
+git add .
+
+git commit -m "update branch"
+
+(url http)
+/* add vs token */
+ git remote set-url origin https://(token@)github.com/dat2k1tp/
+git (http của người khác)
+/*token : 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*/
+
+git push --set-upstream origin +tên branch
+)
