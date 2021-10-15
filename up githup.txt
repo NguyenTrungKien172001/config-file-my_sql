@@ -16,7 +16,7 @@ g
 /* add vs token */
  git remote set-url origin https://(token@)github.com/dat2k1tp/
 git
-/*token : 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*/
+/*token : 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*/
 
 git push origin master
 )
@@ -46,7 +46,7 @@ git commit -m "update branch"
 /* add vs token */
  git remote set-url origin https://(token@)github.com/dat2k1tp/
 git (http của người khác)
-/*token : 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*/
+/*token : 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*/
 
 git push --set-upstream origin +tên branch
 )
