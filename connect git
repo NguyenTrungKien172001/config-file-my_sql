@@ -1,0 +1,55 @@
+THIS IS  GITHUB
+
+------------------------------------------------
+SET UP INFO CONFIG
+git config --global user.email "MY_NAME@example.com" (tên email đăng ký githup)
+git config --global user.name "FIRST_NAME LAST_NAME" (tên người dùng githup)
+
+------------------------------------------------
+THAO TÁC CƠ BẢN VỚI GIT
+*origin: remote name  repository
+Requierd>>>>
+git init
+git add .   (up)
+git commit -m "alert" (up)
+
+(SSH-liên kết với repo)
+git remote add origin git@github.com:dat2k1tp/Project Name
+<<<<<Requierd
+(Check repo)
+git config --get remote.origin.url
+
+Security>>>>>>>>>>>>>>>>>>
+Cách 1
+/* add vs token */
+ git remote set-url origin 
+https://{token}@github.com/dat2k1tp/PROJETC NAME
+
+====================================>>Cách 2<<========================================
+Chạy lệnh ssh-keygen
+copy C:\Users\admin\.ssh\ .pub vào github ssh
+<<<<<<<<<<<<<<<<<<<Security
+
+ Push Code >>>>  
+git push origin master (up)
+<<<< Push Code
+
+
+----------------------------------------------------
+THÁO TÁC BRANCH
+git clone+ link git
+
+git checkout -b tên branch (nếu chưa có branch sẽ tạo và chuyển branch đã tạo)
+
+git checkout + ten branch ( nếu đã có branch)
+
+git add .
+
+git commit -m "update branch"
+
+git push --set-upstream origin +tên branch
+------------------------------------------------
+MERGE
+git  checkout + tên branch
+git merge + tên branch
+git push .....(origin master)
