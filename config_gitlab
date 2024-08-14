@@ -1,3 +1,4 @@
+-- GIT LAP
 git config --global user.email "MY_NAME@example.com"
 git config --global user.name "FIRST_NAME LAST_NAME"
 
@@ -6,3 +7,9 @@ git -c http.sslVerify=false clone https:/**********:****/metlife_project/iws_cla
 
 tắt xác thực
 git config --global http.sslVerify false
+
+-- GIT HUB
+clone ssh
+chạy cmd: ssh-keygen
+sau đó copy .pub vào github ssh
+sau đó clone bằng ssh
